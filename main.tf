@@ -218,7 +218,7 @@ resource "aws_lb_target_group_attachment" "tg_attach3" {
   target_id        = aws_instance.web3.id
   port             = 80
 
-  depends_on = [aws_instance.web1]
+  depends_on = [aws_instance.web3]
 }
 
 resource "aws_lb_target_group_attachment" "tg_attach4" {
@@ -226,7 +226,7 @@ resource "aws_lb_target_group_attachment" "tg_attach4" {
   target_id        = aws_instance.web4.id
   port             = 80
 
-  depends_on = [aws_instance.web2]
+  depends_on = [aws_instance.web4]
 }
 
 # Creazione listener
