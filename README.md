@@ -23,3 +23,5 @@ Isturzioni per il Deploy :
 
 
 Note : una volta installata la prima istanza , per quanto riguarda le altre 3 istanze sara' sufficente collegarsi tramite l'ip pubblico e andare all'indirizzo http://ipistanza/wordpress/ , inserire di nuovo i parametri del db e l'istanza riconoscera' che wordpress è gia installato e configurato.
+
+Nota 2 : Ho strutturato il file main.tf in varie sezioni in modo da specificare a quale funzione è adibita ogni sezione.
