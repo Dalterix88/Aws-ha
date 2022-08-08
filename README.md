@@ -3,9 +3,12 @@ Ha wordpress cluster on AWS
 
 L'infrastruttura è composta dai seguenti elementi :
 
-1 VPC con 2 subnet pubbliche e 2 private
-4 istanze webserver con wordpress (eu-central-1a / eu-central-1b) 2 per ogni zona
+2 VPC con 2 subnet pubbliche e 2 private
+
+4istanze webserver con wordpress (eu-central-1a / eu-central-1b) 2 per ogni zona
+
 1 istanza RDS per ogni zona (eu-central-1a / eu-central-1b)
+
 1 load balancer
 
 Isturzioni per il Deploy : 
