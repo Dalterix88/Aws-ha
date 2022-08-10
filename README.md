@@ -37,6 +37,8 @@ L'infrastruttura del main2.tf è composta dai seguenti elementi :
 
 1x load balancer (eu-central-1a / eu-central-1b)
 
+1x Internet gateway
+
 Istruzioni per il deploy dell'infra : 
 
 1) clonare questa repo
