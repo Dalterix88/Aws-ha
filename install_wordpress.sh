@@ -45,7 +45,7 @@ sudo wp core config --dbname="$DB_NAME" --dbuser="$DB_USERNAME" --dbpass="$DB_PA
 sleep 2
 done
 
-sudo wp core install --url="http://$LB_HOSTNAME" --title='HA Wordpress on AWS' --admin_user="admin" --admin_password="test123" --admin_email='admin@example.com' --allow-root
+sudo wp core install --url="http://$LB_HOSTNAME" --title='Dalterix88 HA Wordpress' --admin_user="admin" --admin_password="test123" --admin_email='admin@example.com' --allow-root
 
 chown -R ec2-user:apache /var/www/html
 chmod -R 774 /var/www/html
