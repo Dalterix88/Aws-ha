@@ -30,8 +30,11 @@ ________________________________________________________________________________
 L'infrastruttura del main2.tf è composta dai seguenti elementi :
 
 1x VPN con x2 subnets pubbliche e x2 subnets private
+
 4x EC2 istanze EC2 (2x eu-central-1a / 2x eu-central-1b)
+
 1x RDS cluster (1x eu-central-1a / 1x eu-central-1b)
+
 1x load balancer (eu-central-1a / eu-central-1b)
 
 Istruzioni per il deploy dell'infra : 
